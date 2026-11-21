@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FishMatch – Fish Buyer Matching Platform
 
 Needs only Python 3.8+ (standard library, no installs).
@@ -67,3 +68,6 @@ A listing must be the requested species and score at least 50. Change `WEIGHTS` 
 - Sessions are HttpOnly cookies that expire after 7 days and are kept in memory (restarting the server logs everyone out). State-changing requests need an `X-Requested-With` header as basic CSRF protection. Add HTTPS before deploying.
 - Location matching is text-based (exact = full points, partial text = half).
 - No messaging or ordering yet; buyers see the fisherfolk's phone and email on the details page.
+=======
+# FisherLink
+>>>>>>> 7ecbde490ca77cf7efc4311173c9099e1b7b7750
